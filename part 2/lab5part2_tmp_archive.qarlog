@@ -1,0 +1,66 @@
+Quartus Prime Archive log --	//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/lab5part2_tmp_archive.qarlog
+
+Archive:	//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/lab5part2_tmp_archive.qar
+Date:		Thu Mar 12 23:44:47 2026
+Quartus Prime		19.1.0 Build 670 09/22/2019 SJ Standard Edition
+
+	=========== Files Selected: ===========
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/DE1_SOC_D8M_LB_RTL.SDC
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/DE1_SOC_D8M_LB_RTL.qsf
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/DE1_SOC_D8M_LB_RTL_assignment_defaults.qdf
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/CLOCKMEM.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/CLOCK_DELAY.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/D8M_LUT.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/FpsMonitor.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_READ_DATA.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_RESET_DELAY.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_WRITE_PTR.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_WRITE_WDATA.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/RESET_DELAY.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/SEG7_LUT.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/SEG7_LUT_8.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/VIDEO_PLL.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/pll_test.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/pll_test/pll_test_0002.qip
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/pll_test/pll_test_0002.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/VGA_Controller/VGA_Controller_trig.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/VGA_Controller/VGA_Param.h
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/AUTO_FOCUS_ON.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/AUTO_SYNC_MODIFY.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/FOCUS_ADJ.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/F_VCM.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/I2C_DELAY.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/LCD_COUNTER.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/MODIFY_SYNC.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/VCM_CTRL_P.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/VCM_I2C.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_SET.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_WRITE_COUNTER.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/Line_Buffer_J.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CAMERA_Config.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/RAW2RGB_L.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/RAW_RGB_BIN.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/VGA_READ_COUNTER.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/int_line.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/lab5part2.qpf
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/vga_pll.cmp
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/vga_pll.qip
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/vga_pll.sip
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/vga_pll.spd
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/vga_pll.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/vga_pll/vga_pll_0002.qip
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/vga_pll/vga_pll_0002.v
+//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/vga_pll_sim/vga_pll.vo
+	======= Total: 49 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Thu Mar 12 23:44:57 2026
+Source archive file:	//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/lab5part2_tmp_archive.qar
+Archive was extracted into	//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 3/
+		 - successfully.

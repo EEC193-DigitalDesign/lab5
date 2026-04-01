@@ -1,0 +1,118 @@
+Restore Archived Project report for DE1_SOC_D8M_LB_RTL
+Thu Mar 12 23:45:01 2026
+Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Thu Mar 12 23:45:01 2026 ;
+; Revision Name                   ; DE1_SOC_D8M_LB_RTL                    ;
+; Top-level Entity Name           ; DE1_SOC_D8M_LB_RTL                    ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored '//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/lab5part2_tmp_archive.qar' into the '//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 3' directory
+Info: Generated report 'DE1_SOC_D8M_LB_RTL.restore.rpt'
+
+
++--------------------------------------------+
+; Files Restored                             ;
++--------------------------------------------+
+; File Name                                  ;
++--------------------------------------------+
+; qar_info.json                              ;
+; DE1_SOC_D8M_LB_RTL.SDC                     ;
+; DE1_SOC_D8M_LB_RTL.qsf                     ;
+; DE1_SOC_D8M_LB_RTL_assignment_defaults.qdf ;
+; V/CLOCKMEM.v                               ;
+; V/CLOCK_DELAY.v                            ;
+; V/D8M_LUT.v                                ;
+; V/FpsMonitor.v                             ;
+; V/I2C_READ_DATA.v                          ;
+; V/I2C_RESET_DELAY.v                        ;
+; V/I2C_WRITE_PTR.v                          ;
+; V/I2C_WRITE_WDATA.v                        ;
+; V/RESET_DELAY.v                            ;
+; V/SEG7_LUT.v                               ;
+; V/SEG7_LUT_8.v                             ;
+; V/VIDEO_PLL.v                              ;
+; V/pll_test.v                               ;
+; V/pll_test/pll_test_0002.qip               ;
+; V/pll_test/pll_test_0002.v                 ;
+; VGA_Controller/VGA_Controller_trig.v       ;
+; VGA_Controller/VGA_Param.h                 ;
+; V_Auto/AUTO_FOCUS_ON.v                     ;
+; V_Auto/AUTO_SYNC_MODIFY.v                  ;
+; V_Auto/FOCUS_ADJ.v                         ;
+; V_Auto/F_VCM.v                             ;
+; V_Auto/I2C_DELAY.v                         ;
+; V_Auto/LCD_COUNTER.v                       ;
+; V_Auto/MODIFY_SYNC.v                       ;
+; V_Auto/VCM_CTRL_P.v                        ;
+; V_Auto/VCM_I2C.v                           ;
+; V_D8M/D8M_SET.v                            ;
+; V_D8M/D8M_WRITE_COUNTER.v                  ;
+; V_D8M/Line_Buffer_J.v                      ;
+; V_D8M/MIPI_BRIDGE_CAMERA_Config.v          ;
+; V_D8M/MIPI_BRIDGE_CONFIG.v                 ;
+; V_D8M/MIPI_CAMERA_CONFIG.v                 ;
+; V_D8M/RAW2RGB_L.v                          ;
+; V_D8M/RAW_RGB_BIN.v                        ;
+; V_D8M/VGA_READ_COUNTER.v                   ;
+; V_D8M/int_line.v                           ;
+; de1_soc_d8m_lb_rtl.v                       ;
+; lab5part2.qpf                              ;
+; vga_pll.cmp                                ;
+; vga_pll.qip                                ;
+; vga_pll.sip                                ;
+; vga_pll.spd                                ;
+; vga_pll.v                                  ;
+; vga_pll/vga_pll_0002.qip                   ;
+; vga_pll/vga_pll_0002.v                     ;
+; vga_pll_sim/vga_pll.vo                     ;
++--------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+
