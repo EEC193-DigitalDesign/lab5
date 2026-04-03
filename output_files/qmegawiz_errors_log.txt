@@ -1,0 +1,16 @@
+
+
+C:/Users/ziyua/OneDrive - University of California, Davis/Desktop/DE1_SOC_D8M_LB_RTL/V/pll_test.v
+
+Mar 02 09PM:13:55>: Megafunction Altera PLL v16.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/ziyua/OneDrive - University of California, Davis/Desktop/DE1_SOC_D8M_LB_RTL/V/pll_test.v
+
+Mar 02 09PM:14:03>: Megafunction Altera PLL v16.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/ziyua/OneDrive - University of California, Davis/Desktop/DE1_SOC_D8M_LB_RTL/V/pll_test.v
+
+Mar 02 09PM:14:28>: Megafunction Altera PLL v16.1 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
