@@ -1,5 +1,5 @@
 Timing Analyzer report for DE1_SOC_D8M_LB_RTL
-Thu Mar 12 23:38:27 2026
+Wed Jun 10 15:05:04 2026
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Standard Edition
 
 
@@ -103,32 +103,32 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 12          ;
 ; Maximum allowed            ; 12          ;
 ;                            ;             ;
-; Average used               ; 1.67        ;
+; Average used               ; 2.52        ;
 ; Maximum used               ; 12          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   6.2%      ;
-;     Processor 3            ;   6.2%      ;
-;     Processor 4            ;   6.1%      ;
-;     Processor 5            ;   6.1%      ;
-;     Processor 6            ;   6.1%      ;
-;     Processor 7            ;   6.1%      ;
-;     Processor 8            ;   6.1%      ;
-;     Processor 9            ;   6.1%      ;
-;     Processor 10           ;   6.1%      ;
-;     Processor 11           ;   6.1%      ;
-;     Processor 12           ;   6.1%      ;
+;     Processor 2            ;  14.0%      ;
+;     Processor 3            ;  13.9%      ;
+;     Processor 4            ;  13.9%      ;
+;     Processor 5            ;  13.8%      ;
+;     Processor 6            ;  13.8%      ;
+;     Processor 7            ;  13.8%      ;
+;     Processor 8            ;  13.8%      ;
+;     Processor 9            ;  13.8%      ;
+;     Processor 10           ;  13.8%      ;
+;     Processor 11           ;  13.8%      ;
+;     Processor 12           ;  13.8%      ;
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------+
-; SDC File List                                                                                                                   ;
-+---------------------------------------------------------------------------------------------+--------+--------------------------+
-; SDC File Path                                                                               ; Status ; Read at                  ;
-+---------------------------------------------------------------------------------------------+--------+--------------------------+
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC ; OK     ; Thu Mar 12 23:38:13 2026 ;
-+---------------------------------------------------------------------------------------------+--------+--------------------------+
++------------------------------------------------------------+
+; SDC File List                                              ;
++------------------------+--------+--------------------------+
+; SDC File Path          ; Status ; Read at                  ;
++------------------------+--------+--------------------------+
+; DE1_SOC_D8M_LB_RTL.SDC ; OK     ; Wed Jun 10 15:04:59 2026 ;
++------------------------+--------+--------------------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1180,7 +1180,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Standard Edition
-    Info: Processing started: Thu Mar 12 23:38:09 2026
+    Info: Processing started: Wed Jun 10 15:04:57 2026
 Info: Command: quartus_sta lab5 -c DE1_SOC_D8M_LB_RTL
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -1188,33 +1188,33 @@ Info (20030): Parallel compilation is enabled and will use 12 of the 12 processo
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
 Warning (335093): The Timing Analyzer is analyzing 14 combinational loops as latches. For more details, run the Check Timing command in the Timing Analyzer or view the "User-Specified and Inferred Latches" table in the Analysis & Synthesis report.
-Info (332104): Reading SDC File: '//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC'
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(16): altera_reserved_tck could not be matched with a port or pin or register or keeper or net or combinational node or node File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 16
-Warning (332049): Ignored create_clock at DE1_SOC_D8M_LB_RTL.SDC(16): Argument <targets> is not an object ID File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 16
-    Info (332050): create_clock -name {altera_reserved_tck} -period 40 {altera_reserved_tck} File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 16
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(17): altera_reserved_tdi could not be matched with a port File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 17
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(17): altera_reserved_tck could not be matched with a clock File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 17
-Warning (332049): Ignored set_input_delay at DE1_SOC_D8M_LB_RTL.SDC(17): Argument <targets> is an empty collection File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 17
-    Info (332050): set_input_delay -clock altera_reserved_tck -clock_fall 3 [get_ports altera_reserved_tdi] File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 17
-Warning (332049): Ignored set_input_delay at DE1_SOC_D8M_LB_RTL.SDC(17): Argument -clock is not an object ID File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 17
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(18): altera_reserved_tms could not be matched with a port File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 18
-Warning (332049): Ignored set_input_delay at DE1_SOC_D8M_LB_RTL.SDC(18): Argument <targets> is an empty collection File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 18
-    Info (332050): set_input_delay -clock altera_reserved_tck -clock_fall 3 [get_ports altera_reserved_tms] File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 18
-Warning (332049): Ignored set_input_delay at DE1_SOC_D8M_LB_RTL.SDC(18): Argument -clock is not an object ID File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 18
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(19): altera_reserved_tdo could not be matched with a port File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 19
-Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(19): Argument <targets> is an empty collection File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 19
-    Info (332050): set_output_delay -clock altera_reserved_tck 3 [get_ports altera_reserved_tdo] File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 19
-Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(19): Argument -clock is not an object ID File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 19
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(22): u0|pll_sys|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk could not be matched with a pin File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 22
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(23): DRAM_CLK could not be matched with a port File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 23
-Critical Warning (332049): Ignored create_generated_clock at DE1_SOC_D8M_LB_RTL.SDC(22): Argument <targets> is an empty collection File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 22
+Info (332104): Reading SDC File: 'DE1_SOC_D8M_LB_RTL.SDC'
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(16): altera_reserved_tck could not be matched with a port or pin or register or keeper or net or combinational node or node File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 16
+Warning (332049): Ignored create_clock at DE1_SOC_D8M_LB_RTL.SDC(16): Argument <targets> is not an object ID File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 16
+    Info (332050): create_clock -name {altera_reserved_tck} -period 40 {altera_reserved_tck} File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 16
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(17): altera_reserved_tdi could not be matched with a port File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 17
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(17): altera_reserved_tck could not be matched with a clock File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 17
+Warning (332049): Ignored set_input_delay at DE1_SOC_D8M_LB_RTL.SDC(17): Argument <targets> is an empty collection File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 17
+    Info (332050): set_input_delay -clock altera_reserved_tck -clock_fall 3 [get_ports altera_reserved_tdi] File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 17
+Warning (332049): Ignored set_input_delay at DE1_SOC_D8M_LB_RTL.SDC(17): Argument -clock is not an object ID File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 17
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(18): altera_reserved_tms could not be matched with a port File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 18
+Warning (332049): Ignored set_input_delay at DE1_SOC_D8M_LB_RTL.SDC(18): Argument <targets> is an empty collection File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 18
+    Info (332050): set_input_delay -clock altera_reserved_tck -clock_fall 3 [get_ports altera_reserved_tms] File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 18
+Warning (332049): Ignored set_input_delay at DE1_SOC_D8M_LB_RTL.SDC(18): Argument -clock is not an object ID File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 18
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(19): altera_reserved_tdo could not be matched with a port File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 19
+Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(19): Argument <targets> is an empty collection File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 19
+    Info (332050): set_output_delay -clock altera_reserved_tck 3 [get_ports altera_reserved_tdo] File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 19
+Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(19): Argument -clock is not an object ID File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 19
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(22): u0|pll_sys|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk could not be matched with a pin File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 22
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(23): DRAM_CLK could not be matched with a port File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 23
+Critical Warning (332049): Ignored create_generated_clock at DE1_SOC_D8M_LB_RTL.SDC(22): Argument <targets> is an empty collection File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 22
     Info (332050): create_generated_clock -source [get_pins {u0|pll_sys|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk}] \
-                      -name clk_dram_ext [get_ports {DRAM_CLK}] File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 22
-Warning (332049): Ignored create_generated_clock at DE1_SOC_D8M_LB_RTL.SDC(22): Argument -source is an empty collection File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 22
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(25): u0|pll_sys|altera_pll_i|general[3].gpll~PLL_OUTPUT_COUNTER|divclk could not be matched with a pin File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 25
-Warning (332049): Ignored create_generated_clock at DE1_SOC_D8M_LB_RTL.SDC(25): Argument -source is an empty collection File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 25
+                      -name clk_dram_ext [get_ports {DRAM_CLK}] File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 22
+Warning (332049): Ignored create_generated_clock at DE1_SOC_D8M_LB_RTL.SDC(22): Argument -source is an empty collection File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 22
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(25): u0|pll_sys|altera_pll_i|general[3].gpll~PLL_OUTPUT_COUNTER|divclk could not be matched with a pin File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 25
+Warning (332049): Ignored create_generated_clock at DE1_SOC_D8M_LB_RTL.SDC(25): Argument -source is an empty collection File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 25
     Info (332050): create_generated_clock -source [get_pins { u0|pll_sys|altera_pll_i|general[3].gpll~PLL_OUTPUT_COUNTER|divclk }] \
-                      -name clk_vga_ext [get_ports {VGA_CLK}] -invert File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 25
+                      -name clk_vga_ext [get_ports {VGA_CLK}] -invert File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 25
 Warning (332043): Overwriting existing clock: MIPI_PIXEL_CLK
 Info (332110): Deriving PLL clocks
     Info (332110): create_generated_clock -source {pllv|vga_pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|refclkin} -divide_by 7 -multiply_by 215 -duty_cycle 50.00 -name {pllv|vga_pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]} {pllv|vga_pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]}
@@ -1222,50 +1222,50 @@ Info (332110): Deriving PLL clocks
     Info (332110): create_generated_clock -source {ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|refclkin} -divide_by 2 -multiply_by 12 -duty_cycle 50.00 -name {ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]} {ref|pll_test_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0]}
     Info (332110): create_generated_clock -source {ref|pll_test_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|vco0ph[0]} -divide_by 15 -duty_cycle 50.00 -name {ref|pll_test_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk} {ref|pll_test_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk}
 Info (332151): Clock uncertainty is not calculated until you update the timing netlist.
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(68): DRAM_DQ* could not be matched with a port File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 68
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(68): clk_dram_ext could not be matched with a clock File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 68
-Warning (332049): Ignored set_input_delay at DE1_SOC_D8M_LB_RTL.SDC(68): Argument <targets> is an empty collection File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 68
-    Info (332050): set_input_delay -max -clock clk_dram_ext 5.9 [get_ports DRAM_DQ*] File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 68
-Warning (332049): Ignored set_input_delay at DE1_SOC_D8M_LB_RTL.SDC(68): Argument -clock is not an object ID File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 68
-Warning (332049): Ignored set_input_delay at DE1_SOC_D8M_LB_RTL.SDC(69): Argument <targets> is an empty collection File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 69
-    Info (332050): set_input_delay -min -clock clk_dram_ext 3.0 [get_ports DRAM_DQ*] File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 69
-Warning (332049): Ignored set_input_delay at DE1_SOC_D8M_LB_RTL.SDC(69): Argument -clock is not an object ID File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 69
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(72): u0|pll_sys|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk could not be matched with a clock File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 72
-Warning (332049): Ignored set_multicycle_path at DE1_SOC_D8M_LB_RTL.SDC(71): Argument <from> is an empty collection File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 71
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(68): DRAM_DQ* could not be matched with a port File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 68
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(68): clk_dram_ext could not be matched with a clock File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 68
+Warning (332049): Ignored set_input_delay at DE1_SOC_D8M_LB_RTL.SDC(68): Argument <targets> is an empty collection File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 68
+    Info (332050): set_input_delay -max -clock clk_dram_ext 5.9 [get_ports DRAM_DQ*] File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 68
+Warning (332049): Ignored set_input_delay at DE1_SOC_D8M_LB_RTL.SDC(68): Argument -clock is not an object ID File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 68
+Warning (332049): Ignored set_input_delay at DE1_SOC_D8M_LB_RTL.SDC(69): Argument <targets> is an empty collection File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 69
+    Info (332050): set_input_delay -min -clock clk_dram_ext 3.0 [get_ports DRAM_DQ*] File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 69
+Warning (332049): Ignored set_input_delay at DE1_SOC_D8M_LB_RTL.SDC(69): Argument -clock is not an object ID File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 69
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(72): u0|pll_sys|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk could not be matched with a clock File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 72
+Warning (332049): Ignored set_multicycle_path at DE1_SOC_D8M_LB_RTL.SDC(71): Argument <from> is an empty collection File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 71
     Info (332050): set_multicycle_path -from [get_clocks {clk_dram_ext}] \
                     -to [get_clocks {u0|pll_sys|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk}] \
-                          -setup 2            File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 71
-Warning (332049): Ignored set_multicycle_path at DE1_SOC_D8M_LB_RTL.SDC(71): Argument <to> is an empty collection File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 71
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(87): DRAM_*DQM could not be matched with a port File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 87
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(87): DRAM_DQ* could not be matched with a port File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 87
-Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(87): Argument <targets> is an empty collection File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 87
-    Info (332050): set_output_delay -max -clock clk_dram_ext 1.6  [get_ports {DRAM_DQ* DRAM_*DQM}] File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 87
-Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(87): Argument -clock is not an object ID File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 87
-Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(88): Argument <targets> is an empty collection File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 88
-    Info (332050): set_output_delay -min -clock clk_dram_ext -0.9 [get_ports {DRAM_DQ* DRAM_*DQM}] File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 88
-Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(88): Argument -clock is not an object ID File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 88
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(89): DRAM_ADDR* could not be matched with a port File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 89
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(89): DRAM_BA* could not be matched with a port File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 89
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(89): DRAM_CAS_N could not be matched with a port File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 89
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(89): DRAM_CKE could not be matched with a port File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 89
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(89): DRAM_CS_N could not be matched with a port File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 89
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(89): DRAM_RAS_N could not be matched with a port File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 89
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(89): DRAM_WE_N could not be matched with a port File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 89
-Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(89): Argument <targets> is an empty collection File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 89
-    Info (332050): set_output_delay -max -clock clk_dram_ext 1.6  [get_ports {DRAM_ADDR* DRAM_BA* DRAM_RAS_N DRAM_CAS_N DRAM_WE_N DRAM_CKE DRAM_CS_N}] File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 89
-Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(89): Argument -clock is not an object ID File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 89
-Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(90): Argument <targets> is an empty collection File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 90
-    Info (332050): set_output_delay -min -clock clk_dram_ext -0.9 [get_ports {DRAM_ADDR* DRAM_BA* DRAM_RAS_N DRAM_CAS_N DRAM_WE_N DRAM_CKE DRAM_CS_N}] File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 90
-Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(90): Argument -clock is not an object ID File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 90
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(95): VGA_BLANK could not be matched with a port File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 95
-Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(95): clk_vga_ext could not be matched with a clock File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 95
-Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(95): Argument -clock is not an object ID File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 95
-    Info (332050): set_output_delay -max -clock clk_vga_ext  0.3 [get_ports {VGA_R* VGA_G* VGA_B* VGA_BLANK}] File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 95
-Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(96): Argument -clock is not an object ID File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 96
-    Info (332050): set_output_delay -min -clock clk_vga_ext -1.6 [get_ports {VGA_R* VGA_G* VGA_B* VGA_BLANK}] File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 96
-Warning (332054): Assignment set_clock_groups is accepted but has some problems at DE1_SOC_D8M_LB_RTL.SDC(101): Argument -group with value [get_clocks {u0|pll_sys|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk}] contains zero elements File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 101
+                          -setup 2            File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 71
+Warning (332049): Ignored set_multicycle_path at DE1_SOC_D8M_LB_RTL.SDC(71): Argument <to> is an empty collection File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 71
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(87): DRAM_*DQM could not be matched with a port File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 87
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(87): DRAM_DQ* could not be matched with a port File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 87
+Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(87): Argument <targets> is an empty collection File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 87
+    Info (332050): set_output_delay -max -clock clk_dram_ext 1.6  [get_ports {DRAM_DQ* DRAM_*DQM}] File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 87
+Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(87): Argument -clock is not an object ID File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 87
+Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(88): Argument <targets> is an empty collection File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 88
+    Info (332050): set_output_delay -min -clock clk_dram_ext -0.9 [get_ports {DRAM_DQ* DRAM_*DQM}] File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 88
+Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(88): Argument -clock is not an object ID File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 88
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(89): DRAM_ADDR* could not be matched with a port File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 89
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(89): DRAM_BA* could not be matched with a port File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 89
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(89): DRAM_CAS_N could not be matched with a port File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 89
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(89): DRAM_CKE could not be matched with a port File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 89
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(89): DRAM_CS_N could not be matched with a port File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 89
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(89): DRAM_RAS_N could not be matched with a port File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 89
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(89): DRAM_WE_N could not be matched with a port File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 89
+Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(89): Argument <targets> is an empty collection File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 89
+    Info (332050): set_output_delay -max -clock clk_dram_ext 1.6  [get_ports {DRAM_ADDR* DRAM_BA* DRAM_RAS_N DRAM_CAS_N DRAM_WE_N DRAM_CKE DRAM_CS_N}] File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 89
+Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(89): Argument -clock is not an object ID File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 89
+Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(90): Argument <targets> is an empty collection File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 90
+    Info (332050): set_output_delay -min -clock clk_dram_ext -0.9 [get_ports {DRAM_ADDR* DRAM_BA* DRAM_RAS_N DRAM_CAS_N DRAM_WE_N DRAM_CKE DRAM_CS_N}] File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 90
+Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(90): Argument -clock is not an object ID File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 90
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(95): VGA_BLANK could not be matched with a port File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 95
+Warning (332174): Ignored filter at DE1_SOC_D8M_LB_RTL.SDC(95): clk_vga_ext could not be matched with a clock File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 95
+Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(95): Argument -clock is not an object ID File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 95
+    Info (332050): set_output_delay -max -clock clk_vga_ext  0.3 [get_ports {VGA_R* VGA_G* VGA_B* VGA_BLANK}] File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 95
+Warning (332049): Ignored set_output_delay at DE1_SOC_D8M_LB_RTL.SDC(96): Argument -clock is not an object ID File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 96
+    Info (332050): set_output_delay -min -clock clk_vga_ext -1.6 [get_ports {VGA_R* VGA_G* VGA_B* VGA_BLANK}] File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 96
+Warning (332054): Assignment set_clock_groups is accepted but has some problems at DE1_SOC_D8M_LB_RTL.SDC(101): Argument -group with value [get_clocks {u0|pll_sys|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk}] contains zero elements File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 101
     Info (332050): set_clock_groups -asynchronous -group [get_clocks {u0|pll_sys|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk}] \
-                               -group [get_clocks {MIPI_PIXEL_CLK}] File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 101
+                               -group [get_clocks {MIPI_PIXEL_CLK}] File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/working example/DE1_SOC_D8M_LB_RTL.SDC Line: 101
 Warning (332087): The master clock for this clock assignment could not be derived.  Clock: pllv|vga_pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] was not created.
     Warning (332035): No clocks found on or feeding the specified source node: pllv|vga_pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|refclkin
 Warning (332086): Ignoring clock spec: pllv|vga_pll_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk Reason: Clock derived from ignored clock: pllv|vga_pll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0].  Clock assignment is being ignored.
@@ -1510,9 +1510,9 @@ Info (332146): Worst-case minimum pulse width slack is 1.666
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 113 warnings
-    Info: Peak virtual memory: 5365 megabytes
-    Info: Processing ended: Thu Mar 12 23:38:27 2026
-    Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:15
+    Info: Peak virtual memory: 5361 megabytes
+    Info: Processing ended: Wed Jun 10 15:05:04 2026
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:13
 
 

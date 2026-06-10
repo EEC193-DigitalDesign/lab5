@@ -1,5 +1,5 @@
 Analysis & Synthesis report for DE1_SOC_D8M_LB_RTL
-Fri Mar 13 00:19:44 2026
+Wed Jun 10 15:11:53 2026
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Standard Edition
 
 
@@ -107,7 +107,7 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Mar 13 00:19:43 2026           ;
+; Analysis & Synthesis Status     ; Successful - Wed Jun 10 15:11:53 2026           ;
 ; Quartus Prime Version           ; 19.1.0 Build 670 09/22/2019 SJ Standard Edition ;
 ; Revision Name                   ; DE1_SOC_D8M_LB_RTL                              ;
 ; Top-level Entity Name           ; DE1_SOC_D8M_LB_RTL                              ;
@@ -238,55 +238,55 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                         ;
-+--------------------------------------------------------------------------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path                                                                 ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                     ; Library ;
-+--------------------------------------------------------------------------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------------+---------+
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/pll_test/pll_test_0002.v           ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/pll_test/pll_test_0002.v           ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/pll_test.v                         ; yes             ; User Wizard-Generated File   ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/pll_test.v                         ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v           ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v           ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v           ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v           ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CAMERA_Config.v    ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CAMERA_Config.v    ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/VCM_I2C.v                     ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/VCM_I2C.v                     ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/VCM_CTRL_P.v                  ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/VCM_CTRL_P.v                  ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/MODIFY_SYNC.v                 ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/MODIFY_SYNC.v                 ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/LCD_COUNTER.v                 ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/LCD_COUNTER.v                 ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/I2C_DELAY.v                   ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/I2C_DELAY.v                   ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/FOCUS_ADJ.v                   ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/FOCUS_ADJ.v                   ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/F_VCM.v                       ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/F_VCM.v                       ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/AUTO_SYNC_MODIFY.v            ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/AUTO_SYNC_MODIFY.v            ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/RESET_DELAY.v                      ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/RESET_DELAY.v                      ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_WRITE_WDATA.v                  ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_WRITE_WDATA.v                  ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_WRITE_PTR.v                    ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_WRITE_PTR.v                    ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_RESET_DELAY.v                  ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_RESET_DELAY.v                  ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_READ_DATA.v                    ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_READ_DATA.v                    ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/FpsMonitor.v                       ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/FpsMonitor.v                       ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/CLOCKMEM.v                         ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/CLOCKMEM.v                         ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/Line_Buffer_J.v                ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/Line_Buffer_J.v                ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/int_line.v                     ; yes             ; User Wizard-Generated File   ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/int_line.v                     ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_SET.v                      ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_SET.v                      ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/RAW_RGB_BIN.v                  ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/RAW_RGB_BIN.v                  ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/VGA_Controller/VGA_Param.h           ; yes             ; User File                    ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/VGA_Controller/VGA_Param.h           ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/VGA_Controller/VGA_Controller_trig.v ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/VGA_Controller/VGA_Controller_trig.v ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/RAW2RGB_L.v                    ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/RAW2RGB_L.v                    ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_WRITE_COUNTER.v            ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_WRITE_COUNTER.v            ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/VGA_READ_COUNTER.v             ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/VGA_READ_COUNTER.v             ;         ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/vga_pll.v                            ; yes             ; User Wizard-Generated File   ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/vga_pll.v                            ; vga_pll ;
-; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/vga_pll/vga_pll_0002.v               ; yes             ; User Verilog HDL File        ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/vga_pll/vga_pll_0002.v               ; vga_pll ;
-; de1_soc_d8m_lb_rtl.v                                                                             ; yes             ; Auto-Found Verilog HDL File  ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v                 ;         ;
-; altera_pll.v                                                                                     ; yes             ; Megafunction                 ; c:/intelfpga/19.1/quartus/libraries/megafunctions/altera_pll.v                                   ;         ;
-; altsyncram.tdf                                                                                   ; yes             ; Megafunction                 ; c:/intelfpga/19.1/quartus/libraries/megafunctions/altsyncram.tdf                                 ;         ;
-; stratix_ram_block.inc                                                                            ; yes             ; Megafunction                 ; c:/intelfpga/19.1/quartus/libraries/megafunctions/stratix_ram_block.inc                          ;         ;
-; lpm_mux.inc                                                                                      ; yes             ; Megafunction                 ; c:/intelfpga/19.1/quartus/libraries/megafunctions/lpm_mux.inc                                    ;         ;
-; lpm_decode.inc                                                                                   ; yes             ; Megafunction                 ; c:/intelfpga/19.1/quartus/libraries/megafunctions/lpm_decode.inc                                 ;         ;
-; aglobal191.inc                                                                                   ; yes             ; Megafunction                 ; c:/intelfpga/19.1/quartus/libraries/megafunctions/aglobal191.inc                                 ;         ;
-; a_rdenreg.inc                                                                                    ; yes             ; Megafunction                 ; c:/intelfpga/19.1/quartus/libraries/megafunctions/a_rdenreg.inc                                  ;         ;
-; altrom.inc                                                                                       ; yes             ; Megafunction                 ; c:/intelfpga/19.1/quartus/libraries/megafunctions/altrom.inc                                     ;         ;
-; altram.inc                                                                                       ; yes             ; Megafunction                 ; c:/intelfpga/19.1/quartus/libraries/megafunctions/altram.inc                                     ;         ;
-; altdpram.inc                                                                                     ; yes             ; Megafunction                 ; c:/intelfpga/19.1/quartus/libraries/megafunctions/altdpram.inc                                   ;         ;
-; altsyncram_iup1.tdf                                                                              ; yes             ; Auto-Found AHDL File         ; //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/db/altsyncram_iup1.tdf               ;         ;
-+--------------------------------------------------------------------------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                  ;
++--------------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path     ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                                          ; Library ;
++--------------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------+
+; V/pll_test/pll_test_0002.v           ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/pll_test/pll_test_0002.v           ;         ;
+; V/pll_test.v                         ; yes             ; User Wizard-Generated File   ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/pll_test.v                         ;         ;
+; V_D8M/MIPI_CAMERA_CONFIG.v           ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v           ;         ;
+; V_D8M/MIPI_BRIDGE_CONFIG.v           ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v           ;         ;
+; V_D8M/MIPI_BRIDGE_CAMERA_Config.v    ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_BRIDGE_CAMERA_Config.v    ;         ;
+; V_Auto/VCM_I2C.v                     ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/VCM_I2C.v                     ;         ;
+; V_Auto/VCM_CTRL_P.v                  ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/VCM_CTRL_P.v                  ;         ;
+; V_Auto/MODIFY_SYNC.v                 ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/MODIFY_SYNC.v                 ;         ;
+; V_Auto/LCD_COUNTER.v                 ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/LCD_COUNTER.v                 ;         ;
+; V_Auto/I2C_DELAY.v                   ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/I2C_DELAY.v                   ;         ;
+; V_Auto/FOCUS_ADJ.v                   ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/FOCUS_ADJ.v                   ;         ;
+; V_Auto/F_VCM.v                       ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/F_VCM.v                       ;         ;
+; V_Auto/AUTO_SYNC_MODIFY.v            ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/AUTO_SYNC_MODIFY.v            ;         ;
+; V/RESET_DELAY.v                      ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/RESET_DELAY.v                      ;         ;
+; V/I2C_WRITE_WDATA.v                  ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_WRITE_WDATA.v                  ;         ;
+; V/I2C_WRITE_PTR.v                    ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_WRITE_PTR.v                    ;         ;
+; V/I2C_RESET_DELAY.v                  ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_RESET_DELAY.v                  ;         ;
+; V/I2C_READ_DATA.v                    ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_READ_DATA.v                    ;         ;
+; V/FpsMonitor.v                       ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/FpsMonitor.v                       ;         ;
+; V/CLOCKMEM.v                         ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/CLOCKMEM.v                         ;         ;
+; V_D8M/Line_Buffer_J.v                ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/Line_Buffer_J.v                ;         ;
+; V_D8M/int_line.v                     ; yes             ; User Wizard-Generated File   ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/int_line.v                     ;         ;
+; V_D8M/D8M_SET.v                      ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/D8M_SET.v                      ;         ;
+; V_D8M/RAW_RGB_BIN.v                  ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/RAW_RGB_BIN.v                  ;         ;
+; VGA_Controller/VGA_Param.h           ; yes             ; User File                    ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/VGA_Controller/VGA_Param.h           ;         ;
+; VGA_Controller/VGA_Controller_trig.v ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/VGA_Controller/VGA_Controller_trig.v ;         ;
+; V_D8M/RAW2RGB_L.v                    ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/RAW2RGB_L.v                    ;         ;
+; V_D8M/D8M_WRITE_COUNTER.v            ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/D8M_WRITE_COUNTER.v            ;         ;
+; V_D8M/VGA_READ_COUNTER.v             ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/VGA_READ_COUNTER.v             ;         ;
+; vga_pll.v                            ; yes             ; User Wizard-Generated File   ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/vga_pll.v                            ; vga_pll ;
+; vga_pll/vga_pll_0002.v               ; yes             ; User Verilog HDL File        ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/vga_pll/vga_pll_0002.v               ; vga_pll ;
+; de1_soc_d8m_lb_rtl.v                 ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v                 ;         ;
+; altera_pll.v                         ; yes             ; Megafunction                 ; c:/intelfpga/19.1/quartus/libraries/megafunctions/altera_pll.v                                                        ;         ;
+; altsyncram.tdf                       ; yes             ; Megafunction                 ; c:/intelfpga/19.1/quartus/libraries/megafunctions/altsyncram.tdf                                                      ;         ;
+; stratix_ram_block.inc                ; yes             ; Megafunction                 ; c:/intelfpga/19.1/quartus/libraries/megafunctions/stratix_ram_block.inc                                               ;         ;
+; lpm_mux.inc                          ; yes             ; Megafunction                 ; c:/intelfpga/19.1/quartus/libraries/megafunctions/lpm_mux.inc                                                         ;         ;
+; lpm_decode.inc                       ; yes             ; Megafunction                 ; c:/intelfpga/19.1/quartus/libraries/megafunctions/lpm_decode.inc                                                      ;         ;
+; aglobal191.inc                       ; yes             ; Megafunction                 ; c:/intelfpga/19.1/quartus/libraries/megafunctions/aglobal191.inc                                                      ;         ;
+; a_rdenreg.inc                        ; yes             ; Megafunction                 ; c:/intelfpga/19.1/quartus/libraries/megafunctions/a_rdenreg.inc                                                       ;         ;
+; altrom.inc                           ; yes             ; Megafunction                 ; c:/intelfpga/19.1/quartus/libraries/megafunctions/altrom.inc                                                          ;         ;
+; altram.inc                           ; yes             ; Megafunction                 ; c:/intelfpga/19.1/quartus/libraries/megafunctions/altram.inc                                                          ;         ;
+; altdpram.inc                         ; yes             ; Megafunction                 ; c:/intelfpga/19.1/quartus/libraries/megafunctions/altdpram.inc                                                        ;         ;
+; db/altsyncram_iup1.tdf               ; yes             ; Auto-Generated Megafunction  ; C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/db/altsyncram_iup1.tdf               ;         ;
++--------------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------+
@@ -2287,155 +2287,155 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Standard Edition
-    Info: Processing started: Fri Mar 13 00:19:12 2026
+    Info: Processing started: Wed Jun 10 15:11:32 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab5part2 -c DE1_SOC_D8M_LB_RTL
 Warning (125092): Tcl Script File V/vga_pll/vga_pll_0002.qip not found
     Info (125063): set_global_assignment -name QIP_FILE V/vga_pll/vga_pll_0002.qip
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
-Warning (12019): Can't analyze file -- file //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/vga_pll/vga_pll_0002.v is missing
-Warning (12019): Can't analyze file -- file //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/vga_pll.v is missing
+Warning (12019): Can't analyze file -- file V/vga_pll/vga_pll_0002.v is missing
+Warning (12019): Can't analyze file -- file V/vga_pll.v is missing
 Info (12021): Found 1 design units, including 1 entities, in source file v/pll_test/pll_test_0002.v
-    Info (12023): Found entity 1: pll_test_0002 File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/pll_test/pll_test_0002.v Line: 2
+    Info (12023): Found entity 1: pll_test_0002 File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/pll_test/pll_test_0002.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file v/pll_test.v
-    Info (12023): Found entity 1: pll_test File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/pll_test.v Line: 8
-Warning (10275): Verilog HDL Module Instantiation warning at MIPI_CAMERA_CONFIG.v(297): ignored dangling comma in List of Port Connections File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 297
+    Info (12023): Found entity 1: pll_test File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/pll_test.v Line: 8
+Warning (10275): Verilog HDL Module Instantiation warning at MIPI_CAMERA_CONFIG.v(297): ignored dangling comma in List of Port Connections File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 297
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/mipi_camera_config.v
-    Info (12023): Found entity 1: MIPI_CAMERA_CONFIG File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 1
-Warning (10275): Verilog HDL Module Instantiation warning at MIPI_BRIDGE_CONFIG.v(358): ignored dangling comma in List of Port Connections File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 358
+    Info (12023): Found entity 1: MIPI_CAMERA_CONFIG File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 1
+Warning (10275): Verilog HDL Module Instantiation warning at MIPI_BRIDGE_CONFIG.v(358): ignored dangling comma in List of Port Connections File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 358
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/mipi_bridge_config.v
-    Info (12023): Found entity 1: MIPI_BRIDGE_CONFIG File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 1
+    Info (12023): Found entity 1: MIPI_BRIDGE_CONFIG File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/mipi_bridge_camera_config.v
-    Info (12023): Found entity 1: MIPI_BRIDGE_CAMERA_Config File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 1
-Warning (10275): Verilog HDL Module Instantiation warning at VCM_I2C.v(287): ignored dangling comma in List of Port Connections File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/VCM_I2C.v Line: 287
+    Info (12023): Found entity 1: MIPI_BRIDGE_CAMERA_Config File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 1
+Warning (10275): Verilog HDL Module Instantiation warning at VCM_I2C.v(287): ignored dangling comma in List of Port Connections File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/VCM_I2C.v Line: 287
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/vcm_i2c.v
-    Info (12023): Found entity 1: VCM_I2C File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/VCM_I2C.v Line: 1
+    Info (12023): Found entity 1: VCM_I2C File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/VCM_I2C.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/vcm_ctrl_p.v
-    Info (12023): Found entity 1: VCM_CTRL_P File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/VCM_CTRL_P.v Line: 1
+    Info (12023): Found entity 1: VCM_CTRL_P File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/VCM_CTRL_P.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/modify_sync.v
-    Info (12023): Found entity 1: MODIFY_SYNC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/MODIFY_SYNC.v Line: 1
+    Info (12023): Found entity 1: MODIFY_SYNC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/MODIFY_SYNC.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/lcd_counter.v
-    Info (12023): Found entity 1: LCD_COUNTER File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/LCD_COUNTER.v Line: 1
+    Info (12023): Found entity 1: LCD_COUNTER File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/LCD_COUNTER.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/i2c_delay.v
-    Info (12023): Found entity 1: I2C_DELAY File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/I2C_DELAY.v Line: 1
+    Info (12023): Found entity 1: I2C_DELAY File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/I2C_DELAY.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/focus_adj.v
-    Info (12023): Found entity 1: FOCUS_ADJ File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/FOCUS_ADJ.v Line: 2
+    Info (12023): Found entity 1: FOCUS_ADJ File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/FOCUS_ADJ.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/f_vcm.v
-    Info (12023): Found entity 1: F_VCM File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/F_VCM.v Line: 1
+    Info (12023): Found entity 1: F_VCM File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/F_VCM.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/auto_sync_modify.v
-    Info (12023): Found entity 1: AUTO_SYNC_MODIFY File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/AUTO_SYNC_MODIFY.v Line: 2
+    Info (12023): Found entity 1: AUTO_SYNC_MODIFY File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/AUTO_SYNC_MODIFY.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file v_auto/auto_focus_on.v
-    Info (12023): Found entity 1: AUTO_FOCUS_ON File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/AUTO_FOCUS_ON.v Line: 1
+    Info (12023): Found entity 1: AUTO_FOCUS_ON File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/AUTO_FOCUS_ON.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v/video_pll.v
-    Info (12023): Found entity 1: VIDEO_PLL File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/VIDEO_PLL.v Line: 40
+    Info (12023): Found entity 1: VIDEO_PLL File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/VIDEO_PLL.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file v/seg7_lut_8.v
-    Info (12023): Found entity 1: SEG7_LUT_8 File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/SEG7_LUT_8.v Line: 43
+    Info (12023): Found entity 1: SEG7_LUT_8 File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/SEG7_LUT_8.v Line: 43
 Info (12021): Found 1 design units, including 1 entities, in source file v/seg7_lut.v
-    Info (12023): Found entity 1: SEG7_LUT File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/SEG7_LUT.v Line: 43
+    Info (12023): Found entity 1: SEG7_LUT File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/SEG7_LUT.v Line: 43
 Info (12021): Found 1 design units, including 1 entities, in source file v/reset_delay.v
-    Info (12023): Found entity 1: RESET_DELAY File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/RESET_DELAY.v Line: 44
+    Info (12023): Found entity 1: RESET_DELAY File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/RESET_DELAY.v Line: 44
 Info (12021): Found 1 design units, including 1 entities, in source file v/i2c_write_wdata.v
-    Info (12023): Found entity 1: I2C_WRITE_WDATA File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_WRITE_WDATA.v Line: 1
+    Info (12023): Found entity 1: I2C_WRITE_WDATA File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_WRITE_WDATA.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v/i2c_write_ptr.v
-    Info (12023): Found entity 1: I2C_WRITE_PTR File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_WRITE_PTR.v Line: 1
+    Info (12023): Found entity 1: I2C_WRITE_PTR File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_WRITE_PTR.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v/i2c_reset_delay.v
-    Info (12023): Found entity 1: I2C_RESET_DELAY File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_RESET_DELAY.v Line: 1
+    Info (12023): Found entity 1: I2C_RESET_DELAY File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_RESET_DELAY.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v/i2c_read_data.v
-    Info (12023): Found entity 1: I2C_READ_DATA File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_READ_DATA.v Line: 1
+    Info (12023): Found entity 1: I2C_READ_DATA File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_READ_DATA.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v/fpsmonitor.v
-    Info (12023): Found entity 1: FpsMonitor File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/FpsMonitor.v Line: 1
+    Info (12023): Found entity 1: FpsMonitor File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/FpsMonitor.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v/d8m_lut.v
-    Info (12023): Found entity 1: D8M_LUT File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/D8M_LUT.v Line: 1
+    Info (12023): Found entity 1: D8M_LUT File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/D8M_LUT.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v/clockmem.v
-    Info (12023): Found entity 1: CLOCKMEM File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/CLOCKMEM.v Line: 1
+    Info (12023): Found entity 1: CLOCKMEM File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/CLOCKMEM.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v/clock_delay.v
-    Info (12023): Found entity 1: CLOCK_DELAY File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/CLOCK_DELAY.v Line: 1
-Warning (12019): Can't analyze file -- file //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/RAW2RGB_J.v is missing
+    Info (12023): Found entity 1: CLOCK_DELAY File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/CLOCK_DELAY.v Line: 1
+Warning (12019): Can't analyze file -- file V_D8M/RAW2RGB_J.v is missing
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/line_buffer_j.v
-    Info (12023): Found entity 1: Line_Buffer_J File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/Line_Buffer_J.v Line: 1
+    Info (12023): Found entity 1: Line_Buffer_J File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/Line_Buffer_J.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/int_line.v
-    Info (12023): Found entity 1: int_line File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/int_line.v Line: 40
-Warning (12019): Can't analyze file -- file //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/RE_TRIGGER.v is missing
+    Info (12023): Found entity 1: int_line File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/int_line.v Line: 40
+Warning (12019): Can't analyze file -- file V_D8M/RE_TRIGGER.v is missing
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/d8m_set.v
-    Info (12023): Found entity 1: D8M_SET File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_SET.v Line: 1
+    Info (12023): Found entity 1: D8M_SET File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/D8M_SET.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/raw_rgb_bin.v
-    Info (12023): Found entity 1: RAW_RGB_BIN File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/RAW_RGB_BIN.v Line: 1
+    Info (12023): Found entity 1: RAW_RGB_BIN File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/RAW_RGB_BIN.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file vga_controller/vga_controller_trig.v
-    Info (12023): Found entity 1: VGA_Controller_trig File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/VGA_Controller/VGA_Controller_trig.v Line: 1
+    Info (12023): Found entity 1: VGA_Controller_trig File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/VGA_Controller/VGA_Controller_trig.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/raw2rgb_l.v
-    Info (12023): Found entity 1: RAW2RGB_L File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/RAW2RGB_L.v Line: 2
+    Info (12023): Found entity 1: RAW2RGB_L File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/RAW2RGB_L.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/d8m_write_counter.v
-    Info (12023): Found entity 1: D8M_WRITE_COUNTER File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_WRITE_COUNTER.v Line: 2
+    Info (12023): Found entity 1: D8M_WRITE_COUNTER File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/D8M_WRITE_COUNTER.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file v_d8m/vga_read_counter.v
-    Info (12023): Found entity 1: VGA_READ_COUNTER File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/VGA_READ_COUNTER.v Line: 2
+    Info (12023): Found entity 1: VGA_READ_COUNTER File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/VGA_READ_COUNTER.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file vga_pll.v
-    Info (12023): Found entity 1: vga_pll File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/vga_pll.v Line: 8
+    Info (12023): Found entity 1: vga_pll File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/vga_pll.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file vga_pll/vga_pll_0002.v
-    Info (12023): Found entity 1: vga_pll_0002 File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/vga_pll/vga_pll_0002.v Line: 2
-Warning (10236): Verilog HDL Implicit Net warning at FOCUS_ADJ.v(58): created implicit net for "V_CNT" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/FOCUS_ADJ.v Line: 58
-Warning (10236): Verilog HDL Implicit Net warning at FOCUS_ADJ.v(59): created implicit net for "H_CNT" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/FOCUS_ADJ.v Line: 59
-Warning (10236): Verilog HDL Implicit Net warning at FOCUS_ADJ.v(60): created implicit net for "LINE" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/FOCUS_ADJ.v Line: 60
-Warning (10463): Verilog HDL Declaration warning at de1_soc_d8m_lb_rtl.v(82): "ref" is SystemVerilog-2005 keyword File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 82
-Warning (10229): Verilog HDL Expression warning at de1_soc_d8m_lb_rtl.v(165): truncated literal to match 28 bits File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 165
+    Info (12023): Found entity 1: vga_pll_0002 File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/vga_pll/vga_pll_0002.v Line: 2
+Warning (10236): Verilog HDL Implicit Net warning at FOCUS_ADJ.v(58): created implicit net for "V_CNT" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/FOCUS_ADJ.v Line: 58
+Warning (10236): Verilog HDL Implicit Net warning at FOCUS_ADJ.v(59): created implicit net for "H_CNT" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/FOCUS_ADJ.v Line: 59
+Warning (10236): Verilog HDL Implicit Net warning at FOCUS_ADJ.v(60): created implicit net for "LINE" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/FOCUS_ADJ.v Line: 60
+Warning (10463): Verilog HDL Declaration warning at de1_soc_d8m_lb_rtl.v(82): "ref" is SystemVerilog-2005 keyword File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 82
+Warning (10229): Verilog HDL Expression warning at de1_soc_d8m_lb_rtl.v(164): truncated literal to match 28 bits File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 164
 Warning (12125): Using design file de1_soc_d8m_lb_rtl.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: DE1_SOC_D8M_LB_RTL File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 5
-Warning (10236): Verilog HDL Implicit Net warning at de1_soc_d8m_lb_rtl.v(156): created implicit net for "READY" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 156
+    Info (12023): Found entity 1: DE1_SOC_D8M_LB_RTL File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 5
+Warning (10236): Verilog HDL Implicit Net warning at de1_soc_d8m_lb_rtl.v(155): created implicit net for "READY" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 155
 Info (12127): Elaborating entity "DE1_SOC_D8M_LB_RTL" for the top level hierarchy
-Warning (10230): Verilog HDL assignment warning at de1_soc_d8m_lb_rtl.v(107): truncated value with size 32 to match size of target (22) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 107
-Warning (10230): Verilog HDL assignment warning at de1_soc_d8m_lb_rtl.v(110): truncated value with size 32 to match size of target (16) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 110
-Warning (10230): Verilog HDL assignment warning at de1_soc_d8m_lb_rtl.v(111): truncated value with size 32 to match size of target (16) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 111
-Warning (10230): Verilog HDL assignment warning at de1_soc_d8m_lb_rtl.v(112): truncated value with size 32 to match size of target (16) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 112
-Warning (10230): Verilog HDL assignment warning at de1_soc_d8m_lb_rtl.v(113): truncated value with size 32 to match size of target (16) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 113
-Warning (10034): Output port "MIPI_MCLK" at de1_soc_d8m_lb_rtl.v(33) has no driver File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 33
-Info (12128): Elaborating entity "RESET_DELAY" for hierarchy "RESET_DELAY:u2" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 64
-Info (12128): Elaborating entity "MIPI_BRIDGE_CAMERA_Config" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 79
-Warning (10858): Verilog HDL warning at MIPI_BRIDGE_CAMERA_Config.v(20): object VCM_I2C_SCL used but never assigned File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 20
-Warning (10030): Net "VCM_I2C_SCL" at MIPI_BRIDGE_CAMERA_Config.v(20) has no driver or initial value, using a default initial value '0' File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 20
-Warning (10034): Output port "STEP" at MIPI_BRIDGE_CAMERA_Config.v(12) has no driver File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 12
-Info (12128): Elaborating entity "MIPI_CAMERA_CONFIG" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 46
-Warning (10230): Verilog HDL assignment warning at MIPI_CAMERA_CONFIG.v(124): truncated value with size 32 to match size of target (8) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 124
-Warning (10230): Verilog HDL assignment warning at MIPI_CAMERA_CONFIG.v(170): truncated value with size 32 to match size of target (16) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 170
-Warning (10230): Verilog HDL assignment warning at MIPI_CAMERA_CONFIG.v(197): truncated value with size 32 to match size of target (16) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 197
-Warning (10230): Verilog HDL assignment warning at MIPI_CAMERA_CONFIG.v(222): truncated value with size 32 to match size of target (1) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 222
-Warning (10034): Output port "ID2" at MIPI_CAMERA_CONFIG.v(12) has no driver File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 12
-Warning (10034): Output port "WORD_DATA[15..8]" at MIPI_CAMERA_CONFIG.v(20) has no driver File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 20
-Warning (10034): Output port "TR" at MIPI_CAMERA_CONFIG.v(31) has no driver File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 31
-Info (12128): Elaborating entity "CLOCKMEM" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|CLOCKMEM:c1" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 51
-Info (12128): Elaborating entity "I2C_WRITE_WDATA" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|I2C_WRITE_WDATA:wrd" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 246
-Warning (10230): Verilog HDL assignment warning at I2C_WRITE_WDATA.v(72): truncated value with size 32 to match size of target (8) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_WRITE_WDATA.v Line: 72
-Warning (10230): Verilog HDL assignment warning at I2C_WRITE_WDATA.v(143): truncated value with size 32 to match size of target (8) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_WRITE_WDATA.v Line: 143
-Warning (10230): Verilog HDL assignment warning at I2C_WRITE_WDATA.v(153): truncated value with size 32 to match size of target (8) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_WRITE_WDATA.v Line: 153
-Info (12128): Elaborating entity "I2C_WRITE_PTR" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|I2C_WRITE_PTR:wpt" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 270
-Warning (10230): Verilog HDL assignment warning at I2C_WRITE_PTR.v(61): truncated value with size 32 to match size of target (8) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_WRITE_PTR.v Line: 61
-Warning (10230): Verilog HDL assignment warning at I2C_WRITE_PTR.v(125): truncated value with size 32 to match size of target (8) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_WRITE_PTR.v Line: 125
-Warning (10230): Verilog HDL assignment warning at I2C_WRITE_PTR.v(135): truncated value with size 32 to match size of target (8) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_WRITE_PTR.v Line: 135
-Warning (10230): Verilog HDL assignment warning at I2C_WRITE_PTR.v(160): truncated value with size 32 to match size of target (8) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_WRITE_PTR.v Line: 160
-Info (12128): Elaborating entity "I2C_READ_DATA" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|I2C_READ_DATA:rd" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 297
-Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(53): truncated value with size 33 to match size of target (9) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_READ_DATA.v Line: 53
-Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(67): truncated value with size 32 to match size of target (8) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_READ_DATA.v Line: 67
-Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(90): truncated value with size 32 to match size of target (8) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_READ_DATA.v Line: 90
-Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(93): truncated value with size 32 to match size of target (8) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_READ_DATA.v Line: 93
-Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(104): truncated value with size 32 to match size of target (8) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_READ_DATA.v Line: 104
-Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(168): truncated value with size 32 to match size of target (8) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_READ_DATA.v Line: 168
-Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(178): truncated value with size 32 to match size of target (8) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_READ_DATA.v Line: 178
-Warning (10272): Verilog HDL Case Statement warning at I2C_READ_DATA.v(141): case item expression covers a value already covered by a previous case item File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/I2C_READ_DATA.v Line: 141
-Info (12128): Elaborating entity "I2C_RESET_DELAY" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|I2C_RESET_DELAY:DY" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 307
-Info (12128): Elaborating entity "MIPI_BRIDGE_CONFIG" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 58
-Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(131): truncated value with size 32 to match size of target (8) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 131
-Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(178): truncated value with size 32 to match size of target (8) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 178
-Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(203): truncated value with size 32 to match size of target (8) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 203
-Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(241): truncated value with size 32 to match size of target (16) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 241
-Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(242): truncated value with size 32 to match size of target (16) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 242
-Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(243): truncated value with size 32 to match size of target (16) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 243
-Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(244): truncated value with size 32 to match size of target (16) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 244
-Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(245): truncated value with size 32 to match size of target (16) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 245
-Warning (10034): Output port "TR" at MIPI_BRIDGE_CONFIG.v(36) has no driver File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 36
-Info (12128): Elaborating entity "pll_test" for hierarchy "pll_test:ref" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 82
-Info (12128): Elaborating entity "pll_test_0002" for hierarchy "pll_test:ref|pll_test_0002:pll_test_inst" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/pll_test.v Line: 22
-Info (12128): Elaborating entity "altera_pll" for hierarchy "pll_test:ref|pll_test_0002:pll_test_inst|altera_pll:altera_pll_i" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/pll_test/pll_test_0002.v Line: 88
+Warning (10230): Verilog HDL assignment warning at de1_soc_d8m_lb_rtl.v(107): truncated value with size 32 to match size of target (22) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 107
+Warning (10230): Verilog HDL assignment warning at de1_soc_d8m_lb_rtl.v(110): truncated value with size 32 to match size of target (16) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 110
+Warning (10230): Verilog HDL assignment warning at de1_soc_d8m_lb_rtl.v(111): truncated value with size 32 to match size of target (16) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 111
+Warning (10230): Verilog HDL assignment warning at de1_soc_d8m_lb_rtl.v(112): truncated value with size 32 to match size of target (16) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 112
+Warning (10230): Verilog HDL assignment warning at de1_soc_d8m_lb_rtl.v(113): truncated value with size 32 to match size of target (16) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 113
+Warning (10034): Output port "MIPI_MCLK" at de1_soc_d8m_lb_rtl.v(33) has no driver File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 33
+Info (12128): Elaborating entity "RESET_DELAY" for hierarchy "RESET_DELAY:u2" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 64
+Info (12128): Elaborating entity "MIPI_BRIDGE_CAMERA_Config" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 79
+Warning (10858): Verilog HDL warning at MIPI_BRIDGE_CAMERA_Config.v(20): object VCM_I2C_SCL used but never assigned File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 20
+Warning (10030): Net "VCM_I2C_SCL" at MIPI_BRIDGE_CAMERA_Config.v(20) has no driver or initial value, using a default initial value '0' File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 20
+Warning (10034): Output port "STEP" at MIPI_BRIDGE_CAMERA_Config.v(12) has no driver File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 12
+Info (12128): Elaborating entity "MIPI_CAMERA_CONFIG" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 46
+Warning (10230): Verilog HDL assignment warning at MIPI_CAMERA_CONFIG.v(124): truncated value with size 32 to match size of target (8) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 124
+Warning (10230): Verilog HDL assignment warning at MIPI_CAMERA_CONFIG.v(170): truncated value with size 32 to match size of target (16) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 170
+Warning (10230): Verilog HDL assignment warning at MIPI_CAMERA_CONFIG.v(197): truncated value with size 32 to match size of target (16) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 197
+Warning (10230): Verilog HDL assignment warning at MIPI_CAMERA_CONFIG.v(222): truncated value with size 32 to match size of target (1) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 222
+Warning (10034): Output port "ID2" at MIPI_CAMERA_CONFIG.v(12) has no driver File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 12
+Warning (10034): Output port "WORD_DATA[15..8]" at MIPI_CAMERA_CONFIG.v(20) has no driver File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 20
+Warning (10034): Output port "TR" at MIPI_CAMERA_CONFIG.v(31) has no driver File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 31
+Info (12128): Elaborating entity "CLOCKMEM" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|CLOCKMEM:c1" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 51
+Info (12128): Elaborating entity "I2C_WRITE_WDATA" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|I2C_WRITE_WDATA:wrd" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 246
+Warning (10230): Verilog HDL assignment warning at I2C_WRITE_WDATA.v(72): truncated value with size 32 to match size of target (8) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_WRITE_WDATA.v Line: 72
+Warning (10230): Verilog HDL assignment warning at I2C_WRITE_WDATA.v(143): truncated value with size 32 to match size of target (8) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_WRITE_WDATA.v Line: 143
+Warning (10230): Verilog HDL assignment warning at I2C_WRITE_WDATA.v(153): truncated value with size 32 to match size of target (8) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_WRITE_WDATA.v Line: 153
+Info (12128): Elaborating entity "I2C_WRITE_PTR" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|I2C_WRITE_PTR:wpt" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 270
+Warning (10230): Verilog HDL assignment warning at I2C_WRITE_PTR.v(61): truncated value with size 32 to match size of target (8) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_WRITE_PTR.v Line: 61
+Warning (10230): Verilog HDL assignment warning at I2C_WRITE_PTR.v(125): truncated value with size 32 to match size of target (8) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_WRITE_PTR.v Line: 125
+Warning (10230): Verilog HDL assignment warning at I2C_WRITE_PTR.v(135): truncated value with size 32 to match size of target (8) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_WRITE_PTR.v Line: 135
+Warning (10230): Verilog HDL assignment warning at I2C_WRITE_PTR.v(160): truncated value with size 32 to match size of target (8) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_WRITE_PTR.v Line: 160
+Info (12128): Elaborating entity "I2C_READ_DATA" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|I2C_READ_DATA:rd" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 297
+Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(53): truncated value with size 33 to match size of target (9) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_READ_DATA.v Line: 53
+Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(67): truncated value with size 32 to match size of target (8) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_READ_DATA.v Line: 67
+Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(90): truncated value with size 32 to match size of target (8) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_READ_DATA.v Line: 90
+Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(93): truncated value with size 32 to match size of target (8) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_READ_DATA.v Line: 93
+Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(104): truncated value with size 32 to match size of target (8) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_READ_DATA.v Line: 104
+Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(168): truncated value with size 32 to match size of target (8) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_READ_DATA.v Line: 168
+Warning (10230): Verilog HDL assignment warning at I2C_READ_DATA.v(178): truncated value with size 32 to match size of target (8) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_READ_DATA.v Line: 178
+Warning (10272): Verilog HDL Case Statement warning at I2C_READ_DATA.v(141): case item expression covers a value already covered by a previous case item File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/I2C_READ_DATA.v Line: 141
+Info (12128): Elaborating entity "I2C_RESET_DELAY" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|I2C_RESET_DELAY:DY" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 307
+Info (12128): Elaborating entity "MIPI_BRIDGE_CONFIG" for hierarchy "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_BRIDGE_CAMERA_Config.v Line: 58
+Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(131): truncated value with size 32 to match size of target (8) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 131
+Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(178): truncated value with size 32 to match size of target (8) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 178
+Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(203): truncated value with size 32 to match size of target (8) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 203
+Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(241): truncated value with size 32 to match size of target (16) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 241
+Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(242): truncated value with size 32 to match size of target (16) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 242
+Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(243): truncated value with size 32 to match size of target (16) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 243
+Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(244): truncated value with size 32 to match size of target (16) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 244
+Warning (10230): Verilog HDL assignment warning at MIPI_BRIDGE_CONFIG.v(245): truncated value with size 32 to match size of target (16) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 245
+Warning (10034): Output port "TR" at MIPI_BRIDGE_CONFIG.v(36) has no driver File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 36
+Info (12128): Elaborating entity "pll_test" for hierarchy "pll_test:ref" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 82
+Info (12128): Elaborating entity "pll_test_0002" for hierarchy "pll_test:ref|pll_test_0002:pll_test_inst" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/pll_test.v Line: 22
+Info (12128): Elaborating entity "altera_pll" for hierarchy "pll_test:ref|pll_test_0002:pll_test_inst|altera_pll:altera_pll_i" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/pll_test/pll_test_0002.v Line: 88
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus
-Info (12130): Elaborated megafunction instantiation "pll_test:ref|pll_test_0002:pll_test_inst|altera_pll:altera_pll_i" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/pll_test/pll_test_0002.v Line: 88
-Info (12133): Instantiated megafunction "pll_test:ref|pll_test_0002:pll_test_inst|altera_pll:altera_pll_i" with the following parameter: File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V/pll_test/pll_test_0002.v Line: 88
+Info (12130): Elaborated megafunction instantiation "pll_test:ref|pll_test_0002:pll_test_inst|altera_pll:altera_pll_i" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/pll_test/pll_test_0002.v Line: 88
+Info (12133): Instantiated megafunction "pll_test:ref|pll_test_0002:pll_test_inst|altera_pll:altera_pll_i" with the following parameter: File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V/pll_test/pll_test_0002.v Line: 88
     Info (12134): Parameter "fractional_vco_multiplier" = "false"
     Info (12134): Parameter "reference_clock_frequency" = "50.0 MHz"
     Info (12134): Parameter "operation_mode" = "direct"
@@ -2496,12 +2496,12 @@ Info (12133): Instantiated megafunction "pll_test:ref|pll_test_0002:pll_test_ins
     Info (12134): Parameter "duty_cycle17" = "50"
     Info (12134): Parameter "pll_type" = "General"
     Info (12134): Parameter "pll_subtype" = "General"
-Info (12128): Elaborating entity "vga_pll" for hierarchy "vga_pll:pllv" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 83
-Info (12128): Elaborating entity "vga_pll_0002" for hierarchy "vga_pll:pllv|vga_pll_0002:vga_pll_inst" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/vga_pll.v Line: 20
-Info (12128): Elaborating entity "altera_pll" for hierarchy "vga_pll:pllv|vga_pll_0002:vga_pll_inst|altera_pll:altera_pll_i" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/vga_pll/vga_pll_0002.v Line: 85
+Info (12128): Elaborating entity "vga_pll" for hierarchy "vga_pll:pllv" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 83
+Info (12128): Elaborating entity "vga_pll_0002" for hierarchy "vga_pll:pllv|vga_pll_0002:vga_pll_inst" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/vga_pll.v Line: 20
+Info (12128): Elaborating entity "altera_pll" for hierarchy "vga_pll:pllv|vga_pll_0002:vga_pll_inst|altera_pll:altera_pll_i" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/vga_pll/vga_pll_0002.v Line: 85
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus
-Info (12130): Elaborated megafunction instantiation "vga_pll:pllv|vga_pll_0002:vga_pll_inst|altera_pll:altera_pll_i" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/vga_pll/vga_pll_0002.v Line: 85
-Info (12133): Instantiated megafunction "vga_pll:pllv|vga_pll_0002:vga_pll_inst|altera_pll:altera_pll_i" with the following parameter: File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/vga_pll/vga_pll_0002.v Line: 85
+Info (12130): Elaborated megafunction instantiation "vga_pll:pllv|vga_pll_0002:vga_pll_inst|altera_pll:altera_pll_i" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/vga_pll/vga_pll_0002.v Line: 85
+Info (12133): Instantiated megafunction "vga_pll:pllv|vga_pll_0002:vga_pll_inst|altera_pll:altera_pll_i" with the following parameter: File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/vga_pll/vga_pll_0002.v Line: 85
     Info (12134): Parameter "fractional_vco_multiplier" = "false"
     Info (12134): Parameter "reference_clock_frequency" = "50.0 MHz"
     Info (12134): Parameter "operation_mode" = "direct"
@@ -2562,33 +2562,33 @@ Info (12133): Instantiated megafunction "vga_pll:pllv|vga_pll_0002:vga_pll_inst|
     Info (12134): Parameter "duty_cycle17" = "50"
     Info (12134): Parameter "pll_type" = "General"
     Info (12134): Parameter "pll_subtype" = "General"
-Info (12128): Elaborating entity "D8M_SET" for hierarchy "D8M_SET:ccd" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 91
-Warning (10034): Output port "oRESET_N" at D8M_SET.v(4) has no driver File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_SET.v Line: 4
-Warning (10034): Output port "SCLK" at D8M_SET.v(5) has no driver File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_SET.v Line: 5
-Warning (10034): Output port "CCD_DVAL" at D8M_SET.v(22) has no driver File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_SET.v Line: 22
-Warning (10034): Output port "CCD_LDVAL" at D8M_SET.v(23) has no driver File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_SET.v Line: 23
-Warning (10034): Output port "CCD_FDVAL" at D8M_SET.v(24) has no driver File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_SET.v Line: 24
-Info (12128): Elaborating entity "D8M_WRITE_COUNTER" for hierarchy "D8M_SET:ccd|D8M_WRITE_COUNTER:u3" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_SET.v Line: 49
-Warning (10230): Verilog HDL assignment warning at D8M_WRITE_COUNTER.v(38): truncated value with size 32 to match size of target (16) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_WRITE_COUNTER.v Line: 38
-Warning (10230): Verilog HDL assignment warning at D8M_WRITE_COUNTER.v(44): truncated value with size 32 to match size of target (16) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_WRITE_COUNTER.v Line: 44
-Warning (10230): Verilog HDL assignment warning at D8M_WRITE_COUNTER.v(48): truncated value with size 32 to match size of target (16) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_WRITE_COUNTER.v Line: 48
-Warning (10230): Verilog HDL assignment warning at D8M_WRITE_COUNTER.v(51): truncated value with size 32 to match size of target (16) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_WRITE_COUNTER.v Line: 51
-Info (12128): Elaborating entity "VGA_READ_COUNTER" for hierarchy "D8M_SET:ccd|VGA_READ_COUNTER:cnt" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_SET.v Line: 57
-Warning (10230): Verilog HDL assignment warning at VGA_READ_COUNTER.v(15): truncated value with size 32 to match size of target (16) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/VGA_READ_COUNTER.v Line: 15
-Info (12128): Elaborating entity "RAW2RGB_L" for hierarchy "D8M_SET:ccd|RAW2RGB_L:u4" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_SET.v Line: 79
-Warning (10230): Verilog HDL assignment warning at RAW2RGB_L.v(54): truncated value with size 32 to match size of target (1) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/RAW2RGB_L.v Line: 54
-Warning (10034): Output port "oDVAL" at RAW2RGB_L.v(22) has no driver File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/RAW2RGB_L.v Line: 22
-Info (12128): Elaborating entity "Line_Buffer_J" for hierarchy "D8M_SET:ccd|RAW2RGB_L:u4|Line_Buffer_J:u0" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/RAW2RGB_L.v Line: 50
-Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(28): truncated value with size 32 to match size of target (2) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/Line_Buffer_J.v Line: 28
-Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(31): truncated value with size 32 to match size of target (1) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/Line_Buffer_J.v Line: 31
-Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(32): truncated value with size 32 to match size of target (1) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/Line_Buffer_J.v Line: 32
-Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(33): truncated value with size 32 to match size of target (1) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/Line_Buffer_J.v Line: 33
-Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(39): truncated value with size 32 to match size of target (10) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/Line_Buffer_J.v Line: 39
-Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(46): truncated value with size 32 to match size of target (10) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/Line_Buffer_J.v Line: 46
-Info (12128): Elaborating entity "int_line" for hierarchy "D8M_SET:ccd|RAW2RGB_L:u4|Line_Buffer_J:u0|int_line:d1" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/Line_Buffer_J.v Line: 61
-Info (12128): Elaborating entity "altsyncram" for hierarchy "D8M_SET:ccd|RAW2RGB_L:u4|Line_Buffer_J:u0|int_line:d1|altsyncram:altsyncram_component" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/int_line.v Line: 91
-Info (12130): Elaborated megafunction instantiation "D8M_SET:ccd|RAW2RGB_L:u4|Line_Buffer_J:u0|int_line:d1|altsyncram:altsyncram_component" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/int_line.v Line: 91
-Info (12133): Instantiated megafunction "D8M_SET:ccd|RAW2RGB_L:u4|Line_Buffer_J:u0|int_line:d1|altsyncram:altsyncram_component" with the following parameter: File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/int_line.v Line: 91
+Info (12128): Elaborating entity "D8M_SET" for hierarchy "D8M_SET:ccd" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 91
+Warning (10034): Output port "oRESET_N" at D8M_SET.v(4) has no driver File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/D8M_SET.v Line: 4
+Warning (10034): Output port "SCLK" at D8M_SET.v(5) has no driver File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/D8M_SET.v Line: 5
+Warning (10034): Output port "CCD_DVAL" at D8M_SET.v(22) has no driver File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/D8M_SET.v Line: 22
+Warning (10034): Output port "CCD_LDVAL" at D8M_SET.v(23) has no driver File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/D8M_SET.v Line: 23
+Warning (10034): Output port "CCD_FDVAL" at D8M_SET.v(24) has no driver File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/D8M_SET.v Line: 24
+Info (12128): Elaborating entity "D8M_WRITE_COUNTER" for hierarchy "D8M_SET:ccd|D8M_WRITE_COUNTER:u3" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/D8M_SET.v Line: 49
+Warning (10230): Verilog HDL assignment warning at D8M_WRITE_COUNTER.v(38): truncated value with size 32 to match size of target (16) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/D8M_WRITE_COUNTER.v Line: 38
+Warning (10230): Verilog HDL assignment warning at D8M_WRITE_COUNTER.v(44): truncated value with size 32 to match size of target (16) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/D8M_WRITE_COUNTER.v Line: 44
+Warning (10230): Verilog HDL assignment warning at D8M_WRITE_COUNTER.v(48): truncated value with size 32 to match size of target (16) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/D8M_WRITE_COUNTER.v Line: 48
+Warning (10230): Verilog HDL assignment warning at D8M_WRITE_COUNTER.v(51): truncated value with size 32 to match size of target (16) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/D8M_WRITE_COUNTER.v Line: 51
+Info (12128): Elaborating entity "VGA_READ_COUNTER" for hierarchy "D8M_SET:ccd|VGA_READ_COUNTER:cnt" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/D8M_SET.v Line: 57
+Warning (10230): Verilog HDL assignment warning at VGA_READ_COUNTER.v(15): truncated value with size 32 to match size of target (16) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/VGA_READ_COUNTER.v Line: 15
+Info (12128): Elaborating entity "RAW2RGB_L" for hierarchy "D8M_SET:ccd|RAW2RGB_L:u4" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/D8M_SET.v Line: 79
+Warning (10230): Verilog HDL assignment warning at RAW2RGB_L.v(54): truncated value with size 32 to match size of target (1) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/RAW2RGB_L.v Line: 54
+Warning (10034): Output port "oDVAL" at RAW2RGB_L.v(22) has no driver File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/RAW2RGB_L.v Line: 22
+Info (12128): Elaborating entity "Line_Buffer_J" for hierarchy "D8M_SET:ccd|RAW2RGB_L:u4|Line_Buffer_J:u0" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/RAW2RGB_L.v Line: 50
+Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(28): truncated value with size 32 to match size of target (2) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/Line_Buffer_J.v Line: 28
+Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(31): truncated value with size 32 to match size of target (1) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/Line_Buffer_J.v Line: 31
+Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(32): truncated value with size 32 to match size of target (1) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/Line_Buffer_J.v Line: 32
+Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(33): truncated value with size 32 to match size of target (1) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/Line_Buffer_J.v Line: 33
+Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(39): truncated value with size 32 to match size of target (10) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/Line_Buffer_J.v Line: 39
+Warning (10230): Verilog HDL assignment warning at Line_Buffer_J.v(46): truncated value with size 32 to match size of target (10) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/Line_Buffer_J.v Line: 46
+Info (12128): Elaborating entity "int_line" for hierarchy "D8M_SET:ccd|RAW2RGB_L:u4|Line_Buffer_J:u0|int_line:d1" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/Line_Buffer_J.v Line: 61
+Info (12128): Elaborating entity "altsyncram" for hierarchy "D8M_SET:ccd|RAW2RGB_L:u4|Line_Buffer_J:u0|int_line:d1|altsyncram:altsyncram_component" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/int_line.v Line: 91
+Info (12130): Elaborated megafunction instantiation "D8M_SET:ccd|RAW2RGB_L:u4|Line_Buffer_J:u0|int_line:d1|altsyncram:altsyncram_component" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/int_line.v Line: 91
+Info (12133): Instantiated megafunction "D8M_SET:ccd|RAW2RGB_L:u4|Line_Buffer_J:u0|int_line:d1|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/int_line.v Line: 91
     Info (12134): Parameter "address_aclr_b" = "NONE"
     Info (12134): Parameter "address_reg_b" = "CLOCK1"
     Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
@@ -2607,109 +2607,109 @@ Info (12133): Instantiated megafunction "D8M_SET:ccd|RAW2RGB_L:u4|Line_Buffer_J:
     Info (12134): Parameter "width_a" = "10"
     Info (12134): Parameter "width_b" = "10"
     Info (12134): Parameter "width_byteena_a" = "1"
-Warning (12125): Using design file db/altsyncram_iup1.tdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: altsyncram_iup1 File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/db/altsyncram_iup1.tdf Line: 28
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_iup1.tdf
+    Info (12023): Found entity 1: altsyncram_iup1 File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/db/altsyncram_iup1.tdf Line: 28
 Info (12128): Elaborating entity "altsyncram_iup1" for hierarchy "D8M_SET:ccd|RAW2RGB_L:u4|Line_Buffer_J:u0|int_line:d1|altsyncram:altsyncram_component|altsyncram_iup1:auto_generated" File: c:/intelfpga/19.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
-Info (12128): Elaborating entity "RAW_RGB_BIN" for hierarchy "D8M_SET:ccd|RAW2RGB_L:u4|RAW_RGB_BIN:bin" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/RAW2RGB_L.v Line: 68
-Warning (10230): Verilog HDL assignment warning at RAW_RGB_BIN.v(36): truncated value with size 32 to match size of target (10) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/RAW_RGB_BIN.v Line: 36
-Warning (10230): Verilog HDL assignment warning at RAW_RGB_BIN.v(42): truncated value with size 32 to match size of target (10) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/RAW_RGB_BIN.v Line: 42
-Warning (10230): Verilog HDL assignment warning at RAW_RGB_BIN.v(48): truncated value with size 32 to match size of target (10) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/RAW_RGB_BIN.v Line: 48
-Warning (10230): Verilog HDL assignment warning at RAW_RGB_BIN.v(54): truncated value with size 32 to match size of target (10) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/RAW_RGB_BIN.v Line: 54
-Info (12128): Elaborating entity "VGA_Controller_trig" for hierarchy "VGA_Controller_trig:u1" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 148
-Info (12128): Elaborating entity "FOCUS_ADJ" for hierarchy "FOCUS_ADJ:adl" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 157
-Info (12128): Elaborating entity "AUTO_SYNC_MODIFY" for hierarchy "FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/FOCUS_ADJ.v Line: 51
-Info (12128): Elaborating entity "MODIFY_SYNC" for hierarchy "FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE|MODIFY_SYNC:vs" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/AUTO_SYNC_MODIFY.v Line: 17
-Warning (10230): Verilog HDL assignment warning at MODIFY_SYNC.v(19): truncated value with size 32 to match size of target (16) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/MODIFY_SYNC.v Line: 19
-Info (12128): Elaborating entity "LCD_COUNTER" for hierarchy "FOCUS_ADJ:adl|LCD_COUNTER:cv1" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/FOCUS_ADJ.v Line: 63
-Warning (10230): Verilog HDL assignment warning at LCD_COUNTER.v(31): truncated value with size 32 to match size of target (16) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/LCD_COUNTER.v Line: 31
-Warning (10230): Verilog HDL assignment warning at LCD_COUNTER.v(36): truncated value with size 32 to match size of target (16) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/LCD_COUNTER.v Line: 36
-Warning (10230): Verilog HDL assignment warning at LCD_COUNTER.v(39): truncated value with size 32 to match size of target (1) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/LCD_COUNTER.v Line: 39
-Warning (10230): Verilog HDL assignment warning at LCD_COUNTER.v(47): truncated value with size 32 to match size of target (1) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/LCD_COUNTER.v Line: 47
-Info (12128): Elaborating entity "VCM_CTRL_P" for hierarchy "FOCUS_ADJ:adl|VCM_CTRL_P:pp" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/FOCUS_ADJ.v Line: 84
-Warning (10230): Verilog HDL assignment warning at VCM_CTRL_P.v(24): truncated value with size 32 to match size of target (18) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/VCM_CTRL_P.v Line: 24
-Warning (10230): Verilog HDL assignment warning at VCM_CTRL_P.v(53): truncated value with size 32 to match size of target (8) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/VCM_CTRL_P.v Line: 53
-Info (12128): Elaborating entity "F_VCM" for hierarchy "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/VCM_CTRL_P.v Line: 94
-Warning (10230): Verilog HDL assignment warning at F_VCM.v(39): truncated value with size 32 to match size of target (11) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/F_VCM.v Line: 39
-Warning (10230): Verilog HDL assignment warning at F_VCM.v(48): truncated value with size 32 to match size of target (11) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/F_VCM.v Line: 48
-Warning (10230): Verilog HDL assignment warning at F_VCM.v(56): truncated value with size 32 to match size of target (11) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/F_VCM.v Line: 56
-Info (12128): Elaborating entity "I2C_DELAY" for hierarchy "FOCUS_ADJ:adl|I2C_DELAY:i2c" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/FOCUS_ADJ.v Line: 95
-Warning (10034): Output port "READY1" at I2C_DELAY.v(6) has no driver File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/I2C_DELAY.v Line: 6
-Info (12128): Elaborating entity "VCM_I2C" for hierarchy "FOCUS_ADJ:adl|VCM_I2C:i2c2" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/FOCUS_ADJ.v Line: 108
-Warning (10230): Verilog HDL assignment warning at VCM_I2C.v(116): truncated value with size 32 to match size of target (8) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/VCM_I2C.v Line: 116
-Warning (10230): Verilog HDL assignment warning at VCM_I2C.v(169): truncated value with size 32 to match size of target (8) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/VCM_I2C.v Line: 169
-Warning (10230): Verilog HDL assignment warning at VCM_I2C.v(207): truncated value with size 32 to match size of target (1) File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/VCM_I2C.v Line: 207
-Warning (10034): Output port "TR" at VCM_I2C.v(32) has no driver File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/VCM_I2C.v Line: 32
-Info (12128): Elaborating entity "FpsMonitor" for hierarchy "FpsMonitor:uFps2" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 164
-Warning (12161): Node "D8M_SET:ccd|SDATA" is stuck at GND because node is in wire loop and does not have a source File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_SET.v Line: 6
+Info (12128): Elaborating entity "RAW_RGB_BIN" for hierarchy "D8M_SET:ccd|RAW2RGB_L:u4|RAW_RGB_BIN:bin" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/RAW2RGB_L.v Line: 68
+Warning (10230): Verilog HDL assignment warning at RAW_RGB_BIN.v(36): truncated value with size 32 to match size of target (10) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/RAW_RGB_BIN.v Line: 36
+Warning (10230): Verilog HDL assignment warning at RAW_RGB_BIN.v(42): truncated value with size 32 to match size of target (10) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/RAW_RGB_BIN.v Line: 42
+Warning (10230): Verilog HDL assignment warning at RAW_RGB_BIN.v(48): truncated value with size 32 to match size of target (10) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/RAW_RGB_BIN.v Line: 48
+Warning (10230): Verilog HDL assignment warning at RAW_RGB_BIN.v(54): truncated value with size 32 to match size of target (10) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/RAW_RGB_BIN.v Line: 54
+Info (12128): Elaborating entity "VGA_Controller_trig" for hierarchy "VGA_Controller_trig:u1" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 147
+Info (12128): Elaborating entity "FOCUS_ADJ" for hierarchy "FOCUS_ADJ:adl" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 156
+Info (12128): Elaborating entity "AUTO_SYNC_MODIFY" for hierarchy "FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/FOCUS_ADJ.v Line: 51
+Info (12128): Elaborating entity "MODIFY_SYNC" for hierarchy "FOCUS_ADJ:adl|AUTO_SYNC_MODIFY:RE|MODIFY_SYNC:vs" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/AUTO_SYNC_MODIFY.v Line: 17
+Warning (10230): Verilog HDL assignment warning at MODIFY_SYNC.v(19): truncated value with size 32 to match size of target (16) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/MODIFY_SYNC.v Line: 19
+Info (12128): Elaborating entity "LCD_COUNTER" for hierarchy "FOCUS_ADJ:adl|LCD_COUNTER:cv1" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/FOCUS_ADJ.v Line: 63
+Warning (10230): Verilog HDL assignment warning at LCD_COUNTER.v(31): truncated value with size 32 to match size of target (16) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/LCD_COUNTER.v Line: 31
+Warning (10230): Verilog HDL assignment warning at LCD_COUNTER.v(36): truncated value with size 32 to match size of target (16) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/LCD_COUNTER.v Line: 36
+Warning (10230): Verilog HDL assignment warning at LCD_COUNTER.v(39): truncated value with size 32 to match size of target (1) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/LCD_COUNTER.v Line: 39
+Warning (10230): Verilog HDL assignment warning at LCD_COUNTER.v(47): truncated value with size 32 to match size of target (1) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/LCD_COUNTER.v Line: 47
+Info (12128): Elaborating entity "VCM_CTRL_P" for hierarchy "FOCUS_ADJ:adl|VCM_CTRL_P:pp" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/FOCUS_ADJ.v Line: 84
+Warning (10230): Verilog HDL assignment warning at VCM_CTRL_P.v(24): truncated value with size 32 to match size of target (18) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/VCM_CTRL_P.v Line: 24
+Warning (10230): Verilog HDL assignment warning at VCM_CTRL_P.v(53): truncated value with size 32 to match size of target (8) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/VCM_CTRL_P.v Line: 53
+Info (12128): Elaborating entity "F_VCM" for hierarchy "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/VCM_CTRL_P.v Line: 94
+Warning (10230): Verilog HDL assignment warning at F_VCM.v(39): truncated value with size 32 to match size of target (11) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/F_VCM.v Line: 39
+Warning (10230): Verilog HDL assignment warning at F_VCM.v(48): truncated value with size 32 to match size of target (11) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/F_VCM.v Line: 48
+Warning (10230): Verilog HDL assignment warning at F_VCM.v(56): truncated value with size 32 to match size of target (11) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/F_VCM.v Line: 56
+Info (12128): Elaborating entity "I2C_DELAY" for hierarchy "FOCUS_ADJ:adl|I2C_DELAY:i2c" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/FOCUS_ADJ.v Line: 95
+Warning (10034): Output port "READY1" at I2C_DELAY.v(6) has no driver File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/I2C_DELAY.v Line: 6
+Info (12128): Elaborating entity "VCM_I2C" for hierarchy "FOCUS_ADJ:adl|VCM_I2C:i2c2" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/FOCUS_ADJ.v Line: 108
+Warning (10230): Verilog HDL assignment warning at VCM_I2C.v(116): truncated value with size 32 to match size of target (8) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/VCM_I2C.v Line: 116
+Warning (10230): Verilog HDL assignment warning at VCM_I2C.v(169): truncated value with size 32 to match size of target (8) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/VCM_I2C.v Line: 169
+Warning (10230): Verilog HDL assignment warning at VCM_I2C.v(207): truncated value with size 32 to match size of target (1) File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/VCM_I2C.v Line: 207
+Warning (10034): Output port "TR" at VCM_I2C.v(32) has no driver File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/VCM_I2C.v Line: 32
+Info (12128): Elaborating entity "FpsMonitor" for hierarchy "FpsMonitor:uFps2" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 163
+Warning (12161): Node "D8M_SET:ccd|SDATA" is stuck at GND because node is in wire loop and does not have a source File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/D8M_SET.v Line: 6
 Warning (14284): Synthesized away the following node(s):
     Warning (14285): Synthesized away the following PLL node(s):
         Warning (14320): Synthesized away node "pll_test:ref|pll_test_0002:pll_test_inst|altera_pll:altera_pll_i|outclk_wire[1]" File: c:/intelfpga/19.1/quartus/libraries/megafunctions/altera_pll.v Line: 749
 Warning (12241): 29 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13034): The following nodes have both tri-state and non-tri-state drivers
-    Warning (13035): Inserted always-enabled tri-state buffer between "CAMERA_I2C_SCL" and its non-tri-state driver. File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 27
-    Warning (13035): Inserted always-enabled tri-state buffer between "MIPI_I2C_SCL" and its non-tri-state driver. File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 31
+    Warning (13035): Inserted always-enabled tri-state buffer between "CAMERA_I2C_SCL" and its non-tri-state driver. File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 27
+    Warning (13035): Inserted always-enabled tri-state buffer between "MIPI_I2C_SCL" and its non-tri-state driver. File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 31
 Warning (13004): Presettable and clearable registers converted to equivalent circuits with latches. Registers power-up to an undefined state, and DEVCLRn places the registers in an undefined state.
-    Warning (13310): Register "D8M_SET:ccd|D8M_WRITE_COUNTER:u3|Pre_LVAL" is converted into an equivalent circuit using register "D8M_SET:ccd|D8M_WRITE_COUNTER:u3|Pre_LVAL~_emulated" and latch "D8M_SET:ccd|D8M_WRITE_COUNTER:u3|Pre_LVAL~1" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_WRITE_COUNTER.v Line: 19
-    Warning (13310): Register "D8M_SET:ccd|D8M_WRITE_COUNTER:u3|Pre_FVAL" is converted into an equivalent circuit using register "D8M_SET:ccd|D8M_WRITE_COUNTER:u3|Pre_FVAL~_emulated" and latch "D8M_SET:ccd|D8M_WRITE_COUNTER:u3|Pre_FVAL~1" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/D8M_WRITE_COUNTER.v Line: 18
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_I2C:i2c2|rTR_IN" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_I2C:i2c2|rTR_IN~_emulated" and latch "FOCUS_ADJ:adl|VCM_I2C:i2c2|rTR_IN~1" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/VCM_I2C.v Line: 38
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[3]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[3]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[3]~1" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/F_VCM.v Line: 53
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[2]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[2]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[2]~5" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/F_VCM.v Line: 53
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[10]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[10]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[10]~9" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/F_VCM.v Line: 53
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[9]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[9]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[9]~13" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/F_VCM.v Line: 53
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[8]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[8]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[8]~17" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/F_VCM.v Line: 53
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[7]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[7]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[7]~21" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/F_VCM.v Line: 53
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[6]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[6]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[6]~25" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/F_VCM.v Line: 53
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[5]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[5]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[5]~29" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/F_VCM.v Line: 53
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[4]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[4]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[4]~33" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/F_VCM.v Line: 53
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[1]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[1]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[1]~37" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/F_VCM.v Line: 53
-    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[0]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[0]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[0]~41" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/F_VCM.v Line: 53
+    Warning (13310): Register "D8M_SET:ccd|D8M_WRITE_COUNTER:u3|Pre_LVAL" is converted into an equivalent circuit using register "D8M_SET:ccd|D8M_WRITE_COUNTER:u3|Pre_LVAL~_emulated" and latch "D8M_SET:ccd|D8M_WRITE_COUNTER:u3|Pre_LVAL~1" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/D8M_WRITE_COUNTER.v Line: 19
+    Warning (13310): Register "D8M_SET:ccd|D8M_WRITE_COUNTER:u3|Pre_FVAL" is converted into an equivalent circuit using register "D8M_SET:ccd|D8M_WRITE_COUNTER:u3|Pre_FVAL~_emulated" and latch "D8M_SET:ccd|D8M_WRITE_COUNTER:u3|Pre_FVAL~1" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/D8M_WRITE_COUNTER.v Line: 18
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_I2C:i2c2|rTR_IN" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_I2C:i2c2|rTR_IN~_emulated" and latch "FOCUS_ADJ:adl|VCM_I2C:i2c2|rTR_IN~1" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/VCM_I2C.v Line: 38
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[3]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[3]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[3]~1" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/F_VCM.v Line: 53
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[2]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[2]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[2]~5" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/F_VCM.v Line: 53
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[10]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[10]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[10]~9" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/F_VCM.v Line: 53
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[9]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[9]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[9]~13" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/F_VCM.v Line: 53
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[8]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[8]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[8]~17" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/F_VCM.v Line: 53
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[7]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[7]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[7]~21" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/F_VCM.v Line: 53
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[6]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[6]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[6]~25" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/F_VCM.v Line: 53
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[5]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[5]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[5]~29" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/F_VCM.v Line: 53
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[4]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[4]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[4]~33" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/F_VCM.v Line: 53
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[1]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[1]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[1]~37" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/F_VCM.v Line: 53
+    Warning (13310): Register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[0]" is converted into an equivalent circuit using register "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[0]~_emulated" and latch "FOCUS_ADJ:adl|VCM_CTRL_P:pp|F_VCM:f|STEP_f[0]~41" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/F_VCM.v Line: 53
 Warning (13009): TRI or OPNDRN buffers permanently enabled
-    Warning (13010): Node "CAMERA_I2C_SCL~synth" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 27
-    Warning (13010): Node "MIPI_I2C_SCL~synth" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 31
+    Warning (13010): Node "CAMERA_I2C_SCL~synth" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 27
+    Warning (13010): Node "MIPI_I2C_SCL~synth" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 31
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "HEX2[0]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 12
-    Warning (13410): Pin "HEX2[1]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 12
-    Warning (13410): Pin "HEX2[2]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 12
-    Warning (13410): Pin "HEX2[3]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 12
-    Warning (13410): Pin "HEX2[4]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 12
-    Warning (13410): Pin "HEX2[5]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 12
-    Warning (13410): Pin "HEX2[6]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 12
-    Warning (13410): Pin "HEX3[0]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 13
-    Warning (13410): Pin "HEX3[1]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 13
-    Warning (13410): Pin "HEX3[2]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 13
-    Warning (13410): Pin "HEX3[3]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 13
-    Warning (13410): Pin "HEX3[4]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 13
-    Warning (13410): Pin "HEX3[5]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 13
-    Warning (13410): Pin "HEX3[6]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 13
-    Warning (13410): Pin "HEX4[0]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 14
-    Warning (13410): Pin "HEX4[1]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 14
-    Warning (13410): Pin "HEX4[2]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 14
-    Warning (13410): Pin "HEX4[3]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 14
-    Warning (13410): Pin "HEX4[4]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 14
-    Warning (13410): Pin "HEX4[5]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 14
-    Warning (13410): Pin "HEX4[6]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 14
-    Warning (13410): Pin "HEX5[0]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 15
-    Warning (13410): Pin "HEX5[1]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 15
-    Warning (13410): Pin "HEX5[2]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 15
-    Warning (13410): Pin "HEX5[3]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 15
-    Warning (13410): Pin "HEX5[4]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 15
-    Warning (13410): Pin "HEX5[5]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 15
-    Warning (13410): Pin "HEX5[6]" is stuck at VCC File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 15
-    Warning (13410): Pin "LEDR[2]" is stuck at GND File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 17
-    Warning (13410): Pin "LEDR[3]" is stuck at GND File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 17
-    Warning (13410): Pin "LEDR[4]" is stuck at GND File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 17
-    Warning (13410): Pin "LEDR[5]" is stuck at GND File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 17
-    Warning (13410): Pin "LEDR[6]" is stuck at GND File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 17
-    Warning (13410): Pin "VGA_SYNC_N" is stuck at GND File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 25
-    Warning (13410): Pin "MIPI_CS_n" is stuck at GND File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 30
-    Warning (13410): Pin "MIPI_MCLK" is stuck at GND File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 33
+    Warning (13410): Pin "HEX2[0]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 12
+    Warning (13410): Pin "HEX2[1]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 12
+    Warning (13410): Pin "HEX2[2]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 12
+    Warning (13410): Pin "HEX2[3]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 12
+    Warning (13410): Pin "HEX2[4]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 12
+    Warning (13410): Pin "HEX2[5]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 12
+    Warning (13410): Pin "HEX2[6]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 12
+    Warning (13410): Pin "HEX3[0]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 13
+    Warning (13410): Pin "HEX3[1]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 13
+    Warning (13410): Pin "HEX3[2]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 13
+    Warning (13410): Pin "HEX3[3]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 13
+    Warning (13410): Pin "HEX3[4]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 13
+    Warning (13410): Pin "HEX3[5]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 13
+    Warning (13410): Pin "HEX3[6]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 13
+    Warning (13410): Pin "HEX4[0]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 14
+    Warning (13410): Pin "HEX4[1]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 14
+    Warning (13410): Pin "HEX4[2]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 14
+    Warning (13410): Pin "HEX4[3]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 14
+    Warning (13410): Pin "HEX4[4]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 14
+    Warning (13410): Pin "HEX4[5]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 14
+    Warning (13410): Pin "HEX4[6]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 14
+    Warning (13410): Pin "HEX5[0]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 15
+    Warning (13410): Pin "HEX5[1]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 15
+    Warning (13410): Pin "HEX5[2]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 15
+    Warning (13410): Pin "HEX5[3]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 15
+    Warning (13410): Pin "HEX5[4]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 15
+    Warning (13410): Pin "HEX5[5]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 15
+    Warning (13410): Pin "HEX5[6]" is stuck at VCC File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 15
+    Warning (13410): Pin "LEDR[2]" is stuck at GND File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 17
+    Warning (13410): Pin "LEDR[3]" is stuck at GND File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 17
+    Warning (13410): Pin "LEDR[4]" is stuck at GND File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 17
+    Warning (13410): Pin "LEDR[5]" is stuck at GND File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 17
+    Warning (13410): Pin "LEDR[6]" is stuck at GND File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 17
+    Warning (13410): Pin "VGA_SYNC_N" is stuck at GND File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 25
+    Warning (13410): Pin "MIPI_CS_n" is stuck at GND File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 30
+    Warning (13410): Pin "MIPI_MCLK" is stuck at GND File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 33
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 135 registers lost all their fanouts during netlist optimizations.
 Info (17016): Found the following redundant logic cells in design
-    Info (17048): Logic cell "FOCUS_ADJ:adl|VCM_I2C:i2c2|const_zero_sig" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_Auto/VCM_I2C.v Line: 198
-    Info (17048): Logic cell "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|const_zero_sig" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 213
-    Info (17048): Logic cell "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv|const_zero_sig" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 274
-Info (144001): Generated suppressed messages file //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/output_files/DE1_SOC_D8M_LB_RTL.map.smsg
+    Info (17048): Logic cell "FOCUS_ADJ:adl|VCM_I2C:i2c2|const_zero_sig" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_Auto/VCM_I2C.v Line: 198
+    Info (17048): Logic cell "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_CAMERA_CONFIG:camiv|const_zero_sig" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_CAMERA_CONFIG.v Line: 213
+    Info (17048): Logic cell "MIPI_BRIDGE_CAMERA_Config:cfin|MIPI_BRIDGE_CONFIG:mpiv|const_zero_sig" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/V_D8M/MIPI_BRIDGE_CONFIG.v Line: 274
+Info (144001): Generated suppressed messages file C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/output_files/DE1_SOC_D8M_LB_RTL.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 10 node(s), including 0 DDIO, 2 PLL, 0 transceiver and 0 LCELL
 Warning: RST port on the PLL is not properly connected on instance vga_pll:pllv|vga_pll_0002:vga_pll_inst|altera_pll:altera_pll_i|general[0].gpll. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: c:/intelfpga/19.1/quartus/libraries/megafunctions/altera_pll.v Line: 749
@@ -2717,13 +2717,13 @@ Warning: RST port on the PLL is not properly connected on instance vga_pll:pllv|
 Warning: RST port on the PLL is not properly connected on instance pll_test:ref|pll_test_0002:pll_test_inst|altera_pll:altera_pll_i|general[0].gpll. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: c:/intelfpga/19.1/quartus/libraries/megafunctions/altera_pll.v Line: 749
     Info: Must be connected
 Warning (21074): Design contains 7 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "CLOCK3_50" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 7
-    Warning (15610): No output dependent on input pin "SW[4]" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 18
-    Warning (15610): No output dependent on input pin "SW[5]" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 18
-    Warning (15610): No output dependent on input pin "SW[6]" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 18
-    Warning (15610): No output dependent on input pin "SW[7]" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 18
-    Warning (15610): No output dependent on input pin "SW[8]" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 18
-    Warning (15610): No output dependent on input pin "SW[9]" File: //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 18
+    Warning (15610): No output dependent on input pin "CLOCK3_50" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 7
+    Warning (15610): No output dependent on input pin "SW[4]" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 18
+    Warning (15610): No output dependent on input pin "SW[5]" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 18
+    Warning (15610): No output dependent on input pin "SW[6]" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 18
+    Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 18
+    Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 18
+    Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/de1_soc_d8m_lb_rtl.v Line: 18
 Info (21057): Implemented 3293 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 31 input pins
     Info (21059): Implemented 86 output pins
@@ -2732,16 +2732,16 @@ Info (21057): Implemented 3293 device resources after synthesis - the final reso
     Info (21064): Implemented 30 RAM segments
     Info (21065): Implemented 2 PLLs
     Info (21062): Implemented 2 DSP elements
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 167 warnings
-    Info: Peak virtual memory: 4981 megabytes
-    Info: Processing ended: Fri Mar 13 00:19:44 2026
-    Info: Elapsed time: 00:00:32
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 166 warnings
+    Info: Peak virtual memory: 4985 megabytes
+    Info: Processing ended: Wed Jun 10 15:11:53 2026
+    Info: Elapsed time: 00:00:21
     Info: Total CPU time (on all processors): 00:00:28
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in //10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 2/output_files/DE1_SOC_D8M_LB_RTL.map.smsg.
+The suppressed messages can be found in C:/Users/Justin/Documents/School/Senior Design/Senior-Design-Project/lab5/part 2/output_files/DE1_SOC_D8M_LB_RTL.map.smsg.
 
 

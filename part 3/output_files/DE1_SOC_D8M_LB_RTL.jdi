@@ -1,8 +1,8 @@
 <sld_project_info>
   <project>
-    <hash md5_digest_80b="61071e7e3d2e7ed56721"/>
+    <hash md5_digest_80b="120f46d7bdcf3dc9a2a3"/>
   </project>
   <file_info>
-    <file device="5CSEMA5F31C6" path="//10.0.0.35/School/2025-2026/Senior Design/Labs/lab5/part 3/output_files/DE1_SOC_D8M_LB_RTL.sof" usercode="0xFFFFFFFF"/>
+    <file device="5CSEMA5F31C6" path="DE1_SOC_D8M_LB_RTL.sof" usercode="0xFFFFFFFF"/>
   </file_info>
 </sld_project_info>
